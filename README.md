@@ -34,11 +34,11 @@ Steps to execute:
   bin/kafka-topics.sh --list --zookeeper localhost:2181
   It will show the topic associated with your program(here: twitter)
 
-5.Open another terminal: Go to elastic search directory and run the following
+5.Open another terminal: Go to elastic search directory then bin and run the following
  chmod 755 elasticsearch
  ./elasticsearch
 
-6.Open another terminal: Go to kibana directory and run the following
+6.Open another terminal: Go to kibana directory then bin and run the following
  chmod 755 kibana
 ./kibana
 
